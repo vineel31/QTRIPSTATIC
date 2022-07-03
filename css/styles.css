@@ -158,22 +158,36 @@ footer {
 .adventure-detail-card {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
-
+  width: 100%;
 }
 
 .adventure-card-image {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  width: 100%;
+  border-radius: 1rem;
+  display: flex;
+  object-fit: cover;
+  overflow: hidden;
+  flex-direction: column;
 }
+@media screen and (min-width: 992px) {
+  .sold-out-banner div {
+    position: fixed;
+    width: 100%;
+  }
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  filter: brightness(0.4);
 }
 .experience-content ul li {
   margin-left: 16px;
   padding: 0;
 }
-
+.sold-out-banner {
+  position: relative;
+}
 @media only screen and (min-width: 768px) {
   /* For desktops phones: */
   #reservation {

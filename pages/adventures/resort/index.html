@@ -12,12 +12,88 @@
 <body>
    <!-- TODO: MODULE_ADVENTURE_DETAILS -->
    <!-- 1. Copy navigation bar HTML from Landing page document -->
+<nav class="navbar bg-light navbar-light navbar-expand-sm">
+   <a class="navbar-brand" href="#">QTrip</a>
+   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="navbar-collapse collapse justify-content-end" id="collapsibleNavbar">
 
+      <ul class="navbar-nav justify-content-end">
+         <li class="nav-item ">
+            <a class="nav-link" href="/index.html">Home</a>
+         </li>
+         <li class="nav-link" class="nav-item">
+            <a href="./pages/adventures/index.html">Explore</a>
+         </li>
+      </ul>
+   </div>
+</nav>
    <div class="container">
       <div class="content">
           <!-- TOOD: MODULE_ADVENTURE_DETAILS -->
           <!-- 1. Write the child elements as required. -->
           <!-- 2. Remember to use .adventure-card and its related classes. -->
+         <div class="row" g-4>
+            <div class="col-lg-8 border mb-3 p-3">
+               <div class="row">
+                  <div class="col-lg-8 adventure-detail-card">
+                     <img src="/assets/adventures/resort/resort1.jpg" style="border-radius: 1rem; height:100%; width:100%"
+                        class="adventure-card-image">
+                  </div>
+                  <div class="col-md-4 adventure-detail-card d-none d-lg-block">
+                     <img src="/assets/adventures/resort/resort3.jpg" class="adventure-card-image">
+                     <img src="/assets/adventures/resort/resort2.jpg" class="adventure-card-image mt-3">
+                  </div>
+                  <div class="experience-content">
+                     <h1>Sunshine Resort</h1>
+                     <h5 style="opacity: 0.5;">Relax and unwind yourself</h5>
+                     <hr>
+                     <h4><b>About the experience</b></h4>
+                     <p>Chairman's Jade Resort is constructed in the most natural setting for a day out that please the senses.
+                        The property is spread over eight acres of land with facilities for both indoor and outdoor adventures.
+                        Get active in the pool with a a game of water polo or try some archery. For the indoor sort, there are a
+                        host of popular game and adventures. If that is not enticing enough head to the gymnasium!</p>
+                     <h5>Inclusions</h5>
+                     <ul>
+                        <li type="square">Swimming pool access</li><br>
+                        <li type="square">Outdoor sports-Water polo, Archery, Tennis and Zorbing</li><br>
+                        <li type="square">Parking</li><br>
+                        <li type="square">Indoor games-Indoor Squash, Table Tenis, Carrom, Badminton, Chess, Billiards and X-Box
+                           230 KINECT</li><br>
+                     </ul>
+                     <h5>Know before you go</h5>
+                     <ul>
+                        <li type="square">Games accessories like balls and shuttlechocks will need to be purchased</li><br>
+                        <li type="square">All adventures and game accessories are suject to availablity</li><br>
+                        <li type="square">Nylon swimwear must be worn at all time when using the swimming pool</li><br>
+                        <li type="square">Children must be accompanied by parents or guardians at all times</li><br>
+                        <li type="square">Complimentary entry for children below the height of three feet A valid photo ID is
+                           mandatoy to enter the resort</li><br>
+                     </ul>
+                     <h5>Not Included</h5>
+                     <ul>
+                        <li type="square">Swimwear</li><br>
+                        <li type="square">Pickup and drop</li><br>
+                        <li type="square">Towel</li><br>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4">
+               <div class="sold-out-banner">
+               <div class="card p-4" id="reservation">
+                  <h4>Sold Out!</h4>
+                  <hr>
+                  <h6>This adventure is currently sold out. But there's a lot more to
+                     <span style="color: rgb(58, 177, 137);">
+                        <a href="/pages/adventures/index.html">explore</a>
+                     </span>
+                  </h6>
+               </div>
+            </div>
+            </div>
+         </div>
 
       </div>
    </div>
